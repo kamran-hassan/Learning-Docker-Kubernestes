@@ -1,15 +1,10 @@
 services:
-  web:
+  web-fe:
     build: .
+    command: python app.py
     ports:
-      - "8000:5000"
-    restart: always
-
+      - 5000:5000
   redis:
     image: "redis:alpine"
-  
-  backend:
-    image: imageName
     ports:
-      - "9090:8080"
-    restart: always
+      - 6379

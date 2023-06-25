@@ -18,3 +18,23 @@ use of service that can run Docker Compose Files
 Azure App Services
 AWS ECS
 Virtual Machines
+
+# Dokcer commands
+
+docker compose build
+docker compose start
+docker compose stop
+docker compose up -d [ Build and start ]
+docker compose ps
+docker compose rm
+docker compose down
+docker compose logs
+docker compose exec [container] bash
+
+docker compose --project-name test1 up -d [Run an instance as a project]
+docker compose -p test2 up -d [shortcut of the upper one]
+docker compose ls
+docker compose cp [containerId]:[SRC_PATH] [DEST_PATH]
+docker compose cp [SRC_PATH] [containerID]:[DES_PATH]
+
+
