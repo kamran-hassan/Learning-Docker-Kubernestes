@@ -1,0 +1,21 @@
+# this is a comment
+
+key: value
+anotherKey: anotherValue
+num: 100
+
+# support nesting [ 2 space preferred but not required ]
+
+my_map:
+  key: itsValue
+  nums: 10
+
+# Sequece of value 
+a_squesnce:
+    - Item 1
+    - Item 2
+
+# super set of JSON so we can write JSON as well
+
+json_map: {"key":"theValue"}
+json_seq: ["Item 1", "Item 2", 3, 4]
