@@ -37,3 +37,5 @@ docker rm voltest
 docker run -d --name voltest2 -v myvol:/app nginx:latest
 
 Now we can to app folder and we can see the volume Data
+
+Volume also I have to create a shared data between Containers
